@@ -1,11 +1,14 @@
-const Discord = require("discord.js")
-require("dotenv").config()
+const Discord = require("discord.js");
+require("dotenv").config();
 
 const client = new Discord.Client({
     intents: [
         "GUILDS",
         "GUILD_MESSAGES",
-        "GUILD_MEMBERS"
+        "GUILD_MEMBERS",
+        "GUILD_BANS",
+        "DIRECT_MESSAGES",
+        "DIRECT_MESSAGE_TYPING"
     ]
 })
 
@@ -18,7 +21,7 @@ client.on("messageCreate", (message) => {
 let bot = {
     client,
     prefix: "a!",
-    owners: "743178570842767501"
+    owners: ["743178570842767501", "943489191193489418"]
 }
 
 client.commands = new Discord.Collection()

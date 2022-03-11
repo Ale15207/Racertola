@@ -15,6 +15,7 @@
     "@discordjs/voice": "^0.8.0",
     "discord-player": "^5.2.2",
     "discord.js": "^13.6.0",
+    "distube": "^3.3.2",
     "dotenv": "^16.0.0"
   }
 }

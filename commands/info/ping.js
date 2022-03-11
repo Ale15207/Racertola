@@ -4,6 +4,10 @@ module.exports = {
     permissions: [],
     devOnly: false,
     run: async ({client, message, args}) => {
-        message.reply("pong")
+        const member = message.mentions.members.first();
+        if(member){
+            const memberTarget = message.guild.members.cache.get(member.id);
+            message.channel.send(`${memberTarget}`)
+        }
     }
 }

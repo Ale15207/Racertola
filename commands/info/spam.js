@@ -1,0 +1,47 @@
+module.exports = {
+    name: "spam",
+    category: "info",
+    permissions: [],
+    devOnly: true,
+    run: async ({client, message, args}) => {
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+        message.channel.send("@everyone")
+    }
+}
