@@ -13,8 +13,8 @@ const client = new Discord.Client({
 })
 
 client.on("messageCreate", (message) => {
-    if (message.content == "hi"){
-        message.reply("Hello")
+    if (message.content == "fuck you"){
+        message.reply("no fuck you")
     }
 })
 
