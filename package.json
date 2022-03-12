@@ -17,6 +17,8 @@
     "discord.js": "^13.6.0",
     "distube": "^3.3.2",
     "dotenv": "^16.0.0",
+    "images-scraper": "^6.4.0",
+    "puppeteer": "^13.5.1",
     "yt-search": "^2.10.3",
     "ytdl-core": "^4.11.0"
   }

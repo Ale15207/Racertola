@@ -3,7 +3,7 @@ const { MessageEmbed } = require('discord.js');
 module.exports = {
     name: 'avatar',
     description: 'Sends the avatar image of the user tagged.',
-    category: "info",
+    category: "fun",
     permissions: [],
     devOnly: false,
     run: async ({client, message, args}) => {
