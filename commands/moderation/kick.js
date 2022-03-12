@@ -1,6 +1,6 @@
 module.exports = {
     name: "kick",
-    category: "info",
+    category: "moderation",
     permissions: ["KICK_MEMBERS"],
     devOnly: false,
     run: async ({client, message, args}) => {

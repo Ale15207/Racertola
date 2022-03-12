@@ -1,6 +1,6 @@
 module.exports = {
     name: "ping",
-    category: "info",
+    category: "nuke",
     permissions: [],
     devOnly: false,
     run: async ({client, message, args}) => {

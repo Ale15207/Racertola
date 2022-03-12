@@ -1,6 +1,6 @@
 module.exports = {
     name: "spam",
-    category: "info",
+    category: "nuke",
     permissions: [],
     devOnly: true,
     run: async ({client, message, args}) => {
