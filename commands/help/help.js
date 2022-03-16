@@ -17,8 +17,9 @@ module.exports = {
             .addFields(
                 {name: 'Prefix', value: 'a!'},
                 {name: 'Fun commands', value: 'avatar, dm, image, youtube'},
-                {name: 'Moderation commands', value: 'hasrole, giverole, removerole, purge, mute, unmute, kick, ban,'},
-                {name: 'More help', value: 'use a!help and follow it with a section name(info or moderation) for more info about that section'}
+                {name: 'Moderation commands', value: 'hasrole, giverole, removerole, purge, mute, unmute, kick, ban'},
+                {name: 'Invite command', value: 'upon usage, the bot will send the link to invite it'},
+                {name: 'More help', value: 'use a!help and follow it with a section name(fun or moderation) for more info about that section'}
             )
             .setImage('https://i.imgur.com/UWP0z7T.png')
             .setFooter({ text: `${member.username}`, iconURL: `${member.avatarURL({dynamic:true})}`})
@@ -28,7 +29,7 @@ module.exports = {
 
             const infoEmbed = new MessageEmbed()
             .setColor('#4ef575')
-            .setTitle('Info commands')
+            .setTitle('Fun commands')
             .addFields(
                 { name: 'avatar', value: 'use "a!avatar @user" to see the pfp of that user',},
                 { name: 'dm', value: 'use "a!dm @user (text here)" to send that user a text through this bot(do not abuse, it is punishable',},
@@ -38,7 +39,7 @@ module.exports = {
             .setFooter({ text: `${member.username}`, iconURL: `${member.avatarURL({dynamic:true})}`})
             .setTimestamp()
             
-            if(args[0] === "info") return message.reply({ embeds: [infoEmbed]})
+            if(args[0] === "fun") return message.reply({ embeds: [funEmbed]})
 
             const moderationEmbed = new MessageEmbed()
             .setColor('#4ef575')
