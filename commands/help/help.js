@@ -16,7 +16,7 @@ module.exports = {
             .setAuthor({ name: 'Alessatax#9472', iconURL: 'https://i.imgur.com/UWP0z7T.png', url: 'https://discordapp.com/users/743178570842767501/'})
             .addFields(
                 {name: 'Prefix', value: 'a!'},
-                {name: 'Fun commands', value: 'avatar, dm, image, youtube'},
+                {name: 'Fun commands', value: 'avatar, dm, youtube'},
                 {name: 'Moderation commands', value: 'hasrole, giverole, removerole, purge, mute, unmute, kick, ban'},
                 {name: 'Invite command', value: 'upon usage, the bot will send the link to invite it'},
                 {name: 'More help', value: 'use a!help and follow it with a section name(fun or moderation) for more info about that section'}
@@ -32,8 +32,7 @@ module.exports = {
             .setTitle('Fun commands')
             .addFields(
                 { name: 'avatar', value: 'use "a!avatar @user" to see the pfp of that user',},
-                { name: 'dm', value: 'use "a!dm @user (text here)" to send that user a text through this bot(do not abuse, it is punishable',},
-                { name: 'image', value: 'follow this command with keywords to search images on google and the bot will send 1',},
+                { name: 'dm', value: 'use "a!dm @user (text here)" to send that user a text through this bot(do not abuse, it is punishable)',},
                 { name: 'youtube', value: 'use a!youtube and the bot will provide you with a youtube video made by me :>',}
             )
             .setFooter({ text: `${member.username}`, iconURL: `${member.avatarURL({dynamic:true})}`})
