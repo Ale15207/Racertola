@@ -18,9 +18,11 @@ client.on("messageCreate", (message) => {
     }
 })
 
-client.user.setPresence({
-    activities: [{ name: "a!help", type: "PLAYING" }],
-    status: "dnd",
+client.on("ready", () => {
+    client.user.setPresence({
+        activities: [{ name: "a!help",type: "PLAYING"}],
+        status: "dnd",
+    });
 })
 
 let bot = {
