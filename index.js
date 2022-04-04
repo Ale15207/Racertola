@@ -28,7 +28,7 @@ client.on("ready", () => {
 let bot = {
     client,
     prefix: "a!",
-    owners: ["743178570842767501", "943489191193489418"]
+    owners: ["743178570842767501", "943489191193489418", "769164137380315166"]
 }
 
 client.commands = new Discord.Collection()
