@@ -38,7 +38,7 @@ module.exports = {
             .setFooter({ text: `${member.username}`, iconURL: `${member.avatarURL({dynamic:true})}`})
             .setTimestamp()
             
-            if(args[0] === "fun") return message.reply({ embeds: [funEmbed]})
+            if(args[0] === "fun") return message.reply({ embeds: [infoEmbed]})
 
             const moderationEmbed = new MessageEmbed()
             .setColor('#4ef575')
