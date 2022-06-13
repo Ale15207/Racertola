@@ -211,6 +211,24 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
+    if (message.content == "and?"){
+        message.reply("your mom")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "And?"){
+        message.reply("your mom")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "AND?"){
+        message.reply("your mom")
+    }
+})
+
+client.on("messageCreate", (message) => {
     if (message.content == "LMAO"){
         message.reply("you aint even laughing")
     }
