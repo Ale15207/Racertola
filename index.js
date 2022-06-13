@@ -49,6 +49,18 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
+    if (message.content == "cya"){
+        message.reply("goodbye")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "Cya"){
+        message.reply("goodbye")
+    }
+})
+
+client.on("messageCreate", (message) => {
     if (message.content == "no"){
         message.reply("yes")
     }
