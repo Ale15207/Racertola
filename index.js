@@ -199,6 +199,18 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
+    if (message.content == "My dog stepped on a bee"){
+        message.reply("My dad has to pee")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "my dog stepped on a bee"){
+        message.reply("my dad has to pee")
+    }
+})
+
+client.on("messageCreate", (message) => {
     if (message.content == "LMAO"){
         message.reply("you aint even laughing")
     }
