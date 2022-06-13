@@ -38,7 +38,7 @@ client.on("messageCreate", (message) => {
 
 client.on("messageCreate", (message) => {
     if (message.content == "Keep your voice down!"){
-        message.reply("no, hi im also gay")
+        message.reply("no")
     }
 })
 
