@@ -49,6 +49,24 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
+    if (message.content == "NO"){
+        message.reply("yes")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "nO"){
+        message.reply("yes")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "No"){
+        message.reply("yes")
+    }
+})
+
+client.on("messageCreate", (message) => {
     if (message.content == "SUS"){
         message.reply("amongos")
     }
