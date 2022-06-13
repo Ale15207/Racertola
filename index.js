@@ -31,7 +31,7 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
-    if (message.content = "italian"){
+    if (message.content == "italian"){
         message.reply("pizza pasta mandolino mamma mia")
     }
 })
