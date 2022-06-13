@@ -157,6 +157,18 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
+    if (message.content == "hi"){
+        message.reply("hello")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "Hi"){
+        message.reply("hello")
+    }
+})
+
+client.on("messageCreate", (message) => {
     if (message.content == "sex"){
         message.reply("Ok bud chill out for a second we don't talk about this because  this is a gaming server not some sort of hub for you to stink, get the fuck out")
     }
