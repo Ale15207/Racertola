@@ -37,6 +37,12 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
+    if (message.content == "Italian"){
+        message.reply("pizza pasta mandolino mamma mia")
+    }
+})
+
+client.on("messageCreate", (message) => {
     if (message.content == "Keep your voice down!"){
         message.reply("no")
     }
@@ -51,12 +57,6 @@ client.on("messageCreate", (message) => {
 client.on("messageCreate", (message) => {
     if (message.content == "lol"){
         message.reply("bet you didnt even smile")
-    }
-})
-
-client.on("messageCreate", (message) => {
-    if (message.content == "cya"){
-        message.reply("cya")
     }
 })
 
