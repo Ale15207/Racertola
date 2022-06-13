@@ -37,6 +37,12 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
+    if (message.content.length == [140]){
+        message.reply("shut the fuck up")
+    }
+})
+
+client.on("messageCreate", (message) => {
     if (message.content == "Keep your voice down!"){
         message.reply("no")
     }
