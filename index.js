@@ -36,6 +36,12 @@ client.on("messageCreate", (message) => {
     }
 })
 
+client.on("messageCreate", (message) => {
+    if (message.content == "Keep your voice down!"){
+        message.reply("no, hi im also gay")
+    }
+})
+
 client.on("ready", () => {
     client.user.setPresence({
         activities: [{ name: "a!help",type: "PLAYING"}],
