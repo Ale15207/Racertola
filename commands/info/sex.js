@@ -4,6 +4,7 @@ module.exports = {
     permissions: [],
     devOnly: false,
     run: async ({client, message, args}) => {
-        message.reply("ok deku, come to the room with me ;)")
+        let member = message.author
+        message.reply(`ok ${member}, come to the room with me ;)`)
     }
 }
