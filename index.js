@@ -145,6 +145,24 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
+    if (message.content == "cap"){
+        message.reply("no cap")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "idiot"){
+        message.reply("your mom")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "Cap"){
+        message.reply("no cap")
+    }
+})
+
+client.on("messageCreate", (message) => {
     if (message.content == "looking for who asked"){
         message.reply("but you're blind...")
     }
