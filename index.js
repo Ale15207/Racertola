@@ -217,6 +217,30 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
+    if (message.content == "shut up"){
+        message.reply("get him dad")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "stfu"){
+        message.reply("get him dad")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "SHUT UP"){
+        message.reply("get him dad")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "STFU"){
+        message.reply("get him dad")
+    }
+})
+
+client.on("messageCreate", (message) => {
     if (message.content == "sex"){
         message.reply("Ok bud chill out for a second we don't talk about this because  this is a gaming server not some sort of hub for you to stink, get the fuck out")
     }
