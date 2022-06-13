@@ -67,6 +67,72 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
+    if (message.content == "thank you"){
+        message.reply("np")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "thanks"){
+        message.reply("np")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "thx"){
+        message.reply("np")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "thank u"){
+        message.reply("np")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "Thank you"){
+        message.reply("np")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "noob"){
+        message.reply("no one asked")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "Noob"){
+        message.reply("no one asked")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "nOOb"){
+        message.reply("no one asked")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "n00b"){
+        message.reply("no one asked")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "nub"){
+        message.reply("no one asked")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "i did"){
+        message.reply("you didnt.")
+    }
+})
+
+client.on("messageCreate", (message) => {
     if (message.content == "lol"){
         message.reply("bet you didnt even smile")
     }
