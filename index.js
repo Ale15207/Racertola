@@ -133,6 +133,18 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
+    if (message.content == "gtg"){
+        message.reply("go we dont care")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "brb"){
+        message.reply("hurry")
+    }
+})
+
+client.on("messageCreate", (message) => {
     if (message.content == "nub"){
         message.reply("no one asked")
     }
