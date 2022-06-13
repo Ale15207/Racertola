@@ -37,12 +37,6 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
-    if (message.content.length == [140]){
-        message.reply("shut the fuck up")
-    }
-})
-
-client.on("messageCreate", (message) => {
     if (message.content == "Keep your voice down!"){
         message.reply("no")
     }
@@ -51,6 +45,48 @@ client.on("messageCreate", (message) => {
 client.on("messageCreate", (message) => {
     if (message.content == "no"){
         message.reply("yes")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "lol"){
+        message.reply("bet you didnt even smile")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "cya"){
+        message.reply("cya")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "ok"){
+        message.reply("ok..?")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "LoL"){
+        message.reply("bet you didnt even smile")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "LOL"){
+        message.reply("bet you didnt even smile")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "no u"){
+        message.reply("no u")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "no you"){
+        message.reply("no u")
     }
 })
 
