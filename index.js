@@ -18,6 +18,24 @@ client.on("messageCreate", (message) => {
     }
 })
 
+client.on("messageCreate", (message) => {
+    if (message.content == "sus"){
+        message.reply("amongos")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "Fuck you"){
+        message.reply("no fuck you")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content = "italian"){
+        message.reply("pizza pasta mandolino mamma mia")
+    }
+})
+
 client.on("ready", () => {
     client.user.setPresence({
         activities: [{ name: "a!help",type: "PLAYING"}],
