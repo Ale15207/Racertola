@@ -133,6 +133,24 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
+    if (message.content == "i didnt ask"){
+        message.reply("neither did i")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "didnt ask"){
+        message.reply("neither did i")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "looking for who asked"){
+        message.reply("but you're blind...")
+    }
+})
+
+client.on("messageCreate", (message) => {
     if (message.content == "lol"){
         message.reply("bet you didnt even smile")
     }
