@@ -187,6 +187,18 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
+    if (message.content == "Lmao"){
+        message.reply("you aint even laughing")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "i am"){
+        message.reply("you are not.")
+    }
+})
+
+client.on("messageCreate", (message) => {
     if (message.content == "LMAO"){
         message.reply("you aint even laughing")
     }
