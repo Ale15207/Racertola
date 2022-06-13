@@ -121,6 +121,18 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
+    if (message.content == "wait"){
+        setTimeout(() => message.reply(`waiting by a bit now`), 2000);
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "Wait"){
+        setTimeout(() => message.reply(`waiting by a bit now`), 2000);
+    }
+})
+
+client.on("messageCreate", (message) => {
     if (message.content == "nub"){
         message.reply("no one asked")
     }
