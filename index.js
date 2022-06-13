@@ -145,6 +145,18 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
+    if (message.content == "Brb"){
+        message.reply("hurry")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "Gtg"){
+        message.reply("go we dont care")
+    }
+})
+
+client.on("messageCreate", (message) => {
     if (message.content == "nub"){
         message.reply("no one asked")
     }
