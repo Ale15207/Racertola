@@ -481,6 +481,20 @@ client.on("messageCreate", (message) => {
     }
 })
 
+client.on("messageCreate", (message) => {
+    if (message.author.bot) return
+    if (message.content == "hold up"){
+        message.reply("let me be honest i saw her put percs in my chronic")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.author.bot) return
+    if (message.content == "Hold up"){
+        message.reply("let me be honest i saw her put percs in my chronic")
+    }
+})
+
 client.on("ready", () => {
     client.user.setPresence({
         activities: [{ name: "a!help",type: "PLAYING"}],
