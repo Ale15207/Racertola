@@ -495,6 +495,76 @@ client.on("messageCreate", (message) => {
     }
 })
 
+client.on("messageCreate", (message) => {
+    if (message.author.bot) return
+    if (message.content == "savage"){
+        message.reply("ikr")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.author.bot) return
+    if (message.content == "Savage"){
+        message.reply("ikr")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.author.bot) return
+    if (message.content == "bruh"){
+        message.reply(".-.")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.author.bot) return
+    if (message.content == "Bruh"){
+        message.reply(".-.")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.author.bot) return
+    if (message.content == "rip"){
+        message.reply("rip")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.author.bot) return
+    if (message.content == "Rip"){
+        message.reply("rip")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.author.bot) return
+    if (message.content == "r.i.p."){
+        message.reply("rip")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.author.bot) return
+    if (message.content == "R.i.p."){
+        message.reply("rip")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.author.bot) return
+    if (message.content == "RIP"){
+        message.reply("rip")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.author.bot) return
+    if (message.content == "BRUH"){
+        message.reply(".-.")
+    }
+})
+
 client.on("ready", () => {
     client.user.setPresence({
         activities: [{ name: "a!help",type: "PLAYING"}],
