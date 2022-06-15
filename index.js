@@ -484,14 +484,14 @@ client.on("messageCreate", (message) => {
 client.on("messageCreate", (message) => {
     if (message.author.bot) return
     if (message.content == "hold up"){
-        message.reply("let me be honest i saw her put percs in my chronic")
+        message.reply("let me be honest i know i saw her put percs in my chronic")
     }
 })
 
 client.on("messageCreate", (message) => {
     if (message.author.bot) return
     if (message.content == "Hold up"){
-        message.reply("let me be honest i saw her put percs in my chronic")
+        message.reply("let me be honest i know i saw her put percs in my chronic")
     }
 })
 
