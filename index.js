@@ -565,6 +565,13 @@ client.on("messageCreate", (message) => {
     }
 })
 
+client.on("messageCreate", (message) => {
+    if (message.author.bot) return
+    if (message.content == "Sus"){
+        message.reply("amongos")
+    }
+})
+
 client.on("ready", () => {
     client.user.setPresence({
         activities: [{ name: "a!help",type: "PLAYING"}],
