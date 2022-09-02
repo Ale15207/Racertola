@@ -1,7 +1,7 @@
 module.exports = {
     name: 'reactionrole',
     category: 'moderation',
-    permissions: [ADMINISTRATOR],
+    permissions: ["ADMINISTRATOR"],
     devOnly: false,
     run: async ({message, args, Discord, client}) => {
         const channel = '965232100427038730';
