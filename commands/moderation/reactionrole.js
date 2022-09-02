@@ -48,7 +48,7 @@ module.exports = {
                 + `${dmsopenemoji} to indicate that your dms are open`;
                 + `${dmsclosedemoji} to indicate that your dms are closed`;
 
-        let messageEmbed = await channel.send(embed);
+        let messageEmbed = channel.send(embed);
         messageEmbed.react(boyemoji);
         messageEmbed.react(girlemoji);
         messageEmbed.react(leoemoji);
