@@ -46,13 +46,6 @@ module.exports = {
             .setColor('#4ef575')
             .setTitle('Choose the roles you want to have to help the server know more about you!')
             .setDescription('Choosing an emoji will add its corrisponding role to you')
-            .addFields(
-                {name: `${boyemoji}`, value: "To indicate you're a male"},
-                {name: `${girlemoji}`, value: "To indicate you're a female"},
-                {name: "Any of the zodiac emojis", value: "To add your zodiac as a role so people will know it"},
-                {name: `${dmsopenemoji}`, value: "To let people know that your dms are open"},
-                {name: `${dmsclosedemoji}`, value: "To let people know your dms are closed"}
-            )
 
         let messageEmbed = await message.channel.send(embed);
         messageEmbed.react(boyemoji);
