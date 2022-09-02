@@ -1,3 +1,5 @@
+const { MessageEmbed } = require('discord.js');
+
 module.exports = {
     name: 'reactionrole',
     category: 'moderation',
@@ -40,7 +42,7 @@ module.exports = {
         const dmsopenemoji = '💬';
         const dmsclosedemoji = '🚫';
 
-        let embed = new Discord.MessageEmbed()
+        let embed = new MessageEmbed()
             .setColor('#4ef575')
             .setTitle('Choose the roles you want to have to help the server know more about you!')
             .setDescription('Choosing an emoji will add its corrisponding role to you')
