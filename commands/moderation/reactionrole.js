@@ -1,7 +1,9 @@
 module.exports = {
     name: 'reactionrole',
-    description: "Sets up a reaction role message",
-    execute(message, args, Discord, client) {
+    category: 'moderation',
+    permissions: [ADMINISTRATOR],
+    devOnly: false,
+    run: async ({message, args, Discord, client}) => {
         const channel = '965232100427038730';
 
         const Boyrole = message.guild.roles.cache.find(role => role.name === "♂️Male");
@@ -48,7 +50,7 @@ module.exports = {
                 + `${dmsopenemoji} to indicate that your dms are open`;
                 + `${dmsclosedemoji} to indicate that your dms are closed`;
 
-        let messageEmbed = channel.send(embed);
+        let messageEmbed = await channel.send(embed);
         messageEmbed.react(boyemoji);
         messageEmbed.react(girlemoji);
         messageEmbed.react(leoemoji);
