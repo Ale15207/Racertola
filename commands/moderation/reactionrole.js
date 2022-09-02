@@ -40,7 +40,7 @@ module.exports = {
         const dmsopenemoji = '💬';
         const dmsclosedemoji = '🚫';
 
-        let embed = new Discord.MessageEmbded()
+        let embed = new Discord.MessageEmbed()
             .setColor('#4ef575')
             .setTitle('Choose the roles you want to have to help the server know more about you!')
             .setDescription('Choosing an emoji will add its corrisponding role to you')
