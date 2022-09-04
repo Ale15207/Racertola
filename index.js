@@ -84,6 +84,13 @@ client.on("messageCreate", (message) => {
 
 client.on("messageCreate", (message) => {
     if (message.author.bot) return
+    if (message.content == "si"){
+        message.reply("no")
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.author.bot) return
     if (message.content == "thanks"){
         message.reply("np")
     }
