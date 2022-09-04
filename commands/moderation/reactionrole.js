@@ -67,6 +67,8 @@ module.exports = {
         messageEmbed.react(libraemoji);
         messageEmbed.react(saggittariusemoji);
         messageEmbed.react(aquariusemoji);
+        messageEmbed.react(dmsopenemoji);
+        messageEmbed.react(dmsclosedemoji);
     }
 
 }
